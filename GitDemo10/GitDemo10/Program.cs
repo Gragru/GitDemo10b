@@ -6,6 +6,7 @@
         {
             Helpers.WriteText("Hejsan världen igen!");
             Console.WriteLine("Idag är det onsdag!");
+            Console.WriteLine(Helpers.CoolFeature(13, 47));
             Helpers.MyLoop();
         }
     }

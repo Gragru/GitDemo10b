@@ -20,5 +20,10 @@ namespace GitDemo10
                 Console.WriteLine(i);
             }
         }
+
+        public static int CoolFeature(int num1, int num2)
+        {
+            return num1 * num2;
+        }
     }
 }

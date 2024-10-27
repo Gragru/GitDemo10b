@@ -25,5 +25,10 @@ namespace GitDemo10
         {
             return num1 * num2;
         }
+
+        public static string TellJoke()
+        {
+            return "Why shouldn’t you write with a broken pencil? Because it’s pointless";
+        }
     }
 }
